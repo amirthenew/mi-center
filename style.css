@@ -11,4 +11,8 @@ body{
 .contaienr{
     display: flex;
 }
-.logog
+.logo img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vw;
+}
