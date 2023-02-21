@@ -35,13 +35,16 @@ body{
 .middle-row{
     display: flex;
     align-items: center;
-    width: 100vw;
+
+
 }
 .form-box{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     border-right: 1px solid #000;
+    margin-left: 1rem ;
+    
 
   
 }
@@ -49,13 +52,15 @@ body{
     display: flex;
     flex-direction: column;
     flex-grow:1 ;
+    margin-left: .7rem;
+  
 }
 
-.empty-box{
+/* .empty-box{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-}
+} */
 
 .form-box input{
 
@@ -68,26 +73,31 @@ border-radius: .2rem;
 input{
 
     padding: .3rem;
+    width: 60%;
 }
 
 
 .form-cta{
     display: flex;
-
+border-radius: .2rem;
     margin: .2rem;
+    border: none;
+
 
 }
 
 
 
 .login-btn{
+    display: flex;
     border: none;
     background-color:  #FBAC18;
-    
+    width: 40%;
 }
 
 select{
     border: .5px solid rgb(52, 52, 52);
+    width: 60%;
 
 
 }
