@@ -5,7 +5,52 @@
     padding: 0;
     margin: 0;
     font-weight: 200;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 20px;
     
+}
+
+
+
+body{
+    display: flex;
+    margin: auto;
+    background-color: #14435E;
+}
+.contaienr{
+    display: flex;
+    flex-direction: row;
+ 
+}
+.logo img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vw;
+}
+.middle-row{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+
+
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+
+    border-right: 1px solid #000;
+    margin-left: 1rem ;
+    padding-right: .5rem;
+    
+
+  
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: .7rem;
+  
 }
 
 h2{
@@ -18,49 +63,6 @@ h4{
     color: #fff;
 }
 
-body{
-    display: flex;
-    margin: auto;
-    background-color: #14435E;
-}
-.contaienr{
-    display: flex;
-    flex-direction: row;
-}
-.logo img{
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50vw;
-}
-.middle-row{
-    display: flex;
-    align-items: center;
-
-
-}
-.form-box{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    border-right: 1px solid #000;
-    margin-left: 1rem ;
-    
-
-  
-}
-.info-box{
-    display: flex;
-    flex-direction: column;
-    flex-grow:1 ;
-    margin-left: .7rem;
-  
-}
-
-/* .empty-box{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-} */
 
 .form-box input{
 
@@ -70,19 +72,15 @@ border: none;
 outline: none;
 border-radius: .2rem;
 padding: .3rem;
-width: 250px;
+width: 94%;
 }
 
 
 .form-cta{
     display: flex;
-
     margin: .2rem;
     border: none;
-    width: 250px;
-    padding: .3rem;
-
-
+    width: 100%;
 }
 
 
@@ -91,22 +89,56 @@ width: 250px;
     display: flex;
     border: none;
     background-color:  #FBAC18;
-    width: 40vw;
+    width: 40%;
    align-items: center;
    justify-content: center;
     border-radius: .2rem;
+    padding: .3rem;
+
+}
+
+.login-btn:hover{
+    background-color:  #f89705;
+    cursor: pointer;
 }
 
 select{
     border: .5px solid rgb(52, 52, 52);
-width: 60vw;
+width:57%;
 border: none;
 border-radius: .2rem;
-padding: .3rem;
+padding: .3rem 0;
 margin-right: .2rem;
+cursor: pointer;
+
 
 }
 
 select:focus{
    outline: none;
+}
+
+@media only screen and (max-width : 600px) {
+    body{
+
+        background-color: #FBAC18;
+    }
+.contaienr{
+    display: flex;
+    flex-direction: column;
+}
+.logo img{
+
+    width: 500px;
+}
+.middle-row{
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
 }
