@@ -69,19 +69,18 @@ margin: .2rem;
 border: none;
 outline: none;
 border-radius: .2rem;
-}
-input{
-
-    padding: .3rem;
-    width: 60%;
+padding: .3rem;
+width: 250px;
 }
 
 
 .form-cta{
     display: flex;
-border-radius: .2rem;
+
     margin: .2rem;
     border: none;
+    width: 250px;
+    padding: .3rem;
 
 
 }
@@ -92,13 +91,22 @@ border-radius: .2rem;
     display: flex;
     border: none;
     background-color:  #FBAC18;
-    width: 40%;
+    width: 40vw;
+   align-items: center;
+   justify-content: center;
+    border-radius: .2rem;
 }
 
 select{
     border: .5px solid rgb(52, 52, 52);
-    width: 60%;
-
+width: 60vw;
+border: none;
+border-radius: .2rem;
+padding: .3rem;
+margin-right: .2rem;
 
 }
 
+select:focus{
+   outline: none;
+}
