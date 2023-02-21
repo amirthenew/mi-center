@@ -8,3 +8,7 @@ body{
     margin: auto;
     background-color: #14435E;
 }
+.contaienr{
+    display: flex;
+}
+.logog
