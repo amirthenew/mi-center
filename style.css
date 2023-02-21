@@ -10,9 +10,46 @@ body{
 }
 .contaienr{
     display: flex;
+    flex-direction: row;
 }
 .logo img{
     background-repeat: no-repeat;
     background-size: contain;
     width: 50vw;
+}
+.middle-row{
+    display: flex;
+   justify-content: space-around;
+    align-items: baseline;
+    width: 100vw;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    width: 66vw;
+  
+}
+.info-box{
+    display: flex;
+    width: 33vw;
+}
+
+.form-box input,select,button{
+    display: flex;
+
+margin: .2rem;
+border: none;
+outline: none;
+border-radius: .2rem;
+}
+input{
+    width: 20vw;
+}
+.buttons{
+
+
+}
+select{
+    border: .5px solid rgb(52, 52, 52);
+
 }
