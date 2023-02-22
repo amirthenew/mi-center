@@ -8,5 +8,9 @@ function openWindow(){
         features)
 }
 
+let resetUrl = './reset.html'
+
 const link = document.querySelector('a')
-link.addEventListener('click',openWindow)
+
+loginBtn = document.querySelector('.login-btn')
+loginBtn.addEventListener('click',openWindow)
