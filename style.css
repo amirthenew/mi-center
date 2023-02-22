@@ -123,10 +123,10 @@ select:focus{
    outline: none;
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 601px) {
     body{
 
-        background-color: #FBAC18;
+        background-color: #14435E;
     }
 .contaienr{
     display: flex;
@@ -134,7 +134,7 @@ select:focus{
 }
 .logo img{
 
-    width: 500px;
+    width: 600px;
 }
 .middle-row{
 
@@ -146,4 +146,20 @@ align-items: center;
 
 }
 
+.form-box{
+    border: none;
+}
+
+.form-box input{
+
+
+    width: 80vw;
+    }
+    
+    .info-box{
+        margin-top: 1rem;
+text-align: justify;
+
+      
+    }
 }
