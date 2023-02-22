@@ -8,7 +8,6 @@ function openWindow(){
         features)
 }
 
-let resetUrl = './reset.html'
 
 const link = document.querySelector('a')
 

@@ -1,0 +1,30 @@
+body{
+
+
+    background-color: #14435e;
+    max-height: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.ok-btn{
+    background-color: #FBAC18;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+    margin: 0 .8rem 0;
+    padding: .4rem;
+    color :#14435E ;
+    width:80%;
+    cursor: pointer;
+
+}
