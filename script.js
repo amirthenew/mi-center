@@ -1,6 +1,6 @@
 
 
-let url = '/login.html'
+let url = 'login.html'
 const features = 'scroll=no,width=500,height=300'
 function openWindow(){
     window.open(url,

@@ -1,4 +1,4 @@
-let tryUrl = './try.html'
+let tryUrl = 'try.html'
 let cancelBtn = document.querySelector('.cancel')
 let changeBtn = document.querySelector('.change')
 const features = 'scroll=no,width=200,height=150'
